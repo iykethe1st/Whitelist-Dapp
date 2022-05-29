@@ -197,6 +197,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
+        <center>
         <div>
           <h1 className={styles.title}>Welcome Devs!</h1>
           <div className={styles.description}>
@@ -210,6 +211,7 @@ export default function Home() {
         <div>
           <img className={styles.image} src="./crypto-devs.svg" />
         </div>
+        </center>
       </div>
 
       <footer className={styles.footer}>
