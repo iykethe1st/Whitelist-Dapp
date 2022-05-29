@@ -192,7 +192,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Whitelist Dapp</title>
+        <title>Bts Whitelist Dapp</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -200,10 +200,10 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome Devs!</h1>
           <div className={styles.description}>
-            Just an NFT collection for developers in Crypto.
+            Just a highly spiritual NFT collection for Zen developers in Crypto.
           </div>
           <div className={styles.description}>
-            {numberOfWhitelisted} have already joined the Whitelist
+            {numberOfWhitelisted} have already joined the Whitelist, join and be blessed.
           </div>
           {renderButton()}
         </div>
